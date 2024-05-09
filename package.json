@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "check": "prettier --check './**/*.{html,css,js}'",
-    "format": "prettier --write './**/*.{html,css,js}'"
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix"
   },
   "author": "",
   "license": "ISC",
