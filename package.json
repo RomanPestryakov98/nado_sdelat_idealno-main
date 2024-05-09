@@ -8,9 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "prettier": "^3.2.5",
     "stylelint": "^16.5.0"
-  }
+  },
+  "description": ""
 }
